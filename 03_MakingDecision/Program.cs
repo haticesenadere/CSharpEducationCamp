@@ -275,37 +275,37 @@ namespace _03_MakingDecision
             #endregion
 
             #region Hesap Makinesi
-            int number1, number2, result;
-            char symbol;
-            Console.WriteLine("1. sayı gir");
-            number1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("2. sayı gir");
-            number2 = int.Parse(Console.ReadLine());
+            //int number1, number2, result;
+            //char symbol;
+            //Console.WriteLine("1. sayı gir");
+            //number1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("2. sayı gir");
+            //number2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Lütfen yapmak istediğiniz işlemi giriniz");
-            symbol = char.Parse(Console.ReadLine());
+            //Console.WriteLine("Lütfen yapmak istediğiniz işlemi giriniz");
+            //symbol = char.Parse(Console.ReadLine());
 
-            switch (symbol)
-            {
-                case '+':
-                    result = number1 + number2;
-                    Console.WriteLine("Toplam" + result);
-                    break;
-                case '-':
-                    result = number1 - number2;
-                    Console.WriteLine("Fark: " + result);
-                    break;
+            //switch (symbol)
+            //{
+            //    case '+':
+            //        result = number1 + number2;
+            //        Console.WriteLine("Toplam" + result);
+            //        break;
+            //    case '-':
+            //        result = number1 - number2;
+            //        Console.WriteLine("Fark: " + result);
+            //        break;
 
-                case '*':
-                    result = number1 * number2;
-                    Console.WriteLine("Çarpım: " + result);
-                    break;
+            //    case '*':
+            //        result = number1 * number2;
+            //        Console.WriteLine("Çarpım: " + result);
+            //        break;
 
-                case '/':
-                    result = number1 / number2;
-                    Console.WriteLine("Bölüm: " + result);
-                    break;
-            }
+            //    case '/':
+            //        result = number1 / number2;
+            //        Console.WriteLine("Bölüm: " + result);
+            //        break;
+            //}
    
 
         #endregion
